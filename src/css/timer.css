@@ -1,0 +1,32 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  padding: 15px;
+  max-width: 400px;
+
+  border: 4px solid purple;
+  background-color: darkslateblue;
+  border-radius: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 45px;
+  font-weight: 500;
+  color: yellow;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  color: yellow;
+}
